@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tarea1PagWeb</title>
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8d7da; /* Fondo rosado */
+        }
+
+        /* Estilos para el menú de navegación */
+        nav {
+            background-color: #f292ff; /* Fondo del menú en color f292ff */
+            padding: 20px 0; /* Espaciado interno en el menú (arriba y abajo) */
+            display: flex; /* Uso de flexbox para alinear los enlaces del menú */
+            justify-content: center; /* Centrar horizontalmente los enlaces del menú */
+            border-bottom: 1px solid #ff7698; /* Borde inferior en color rosado fuerte */
+        }
+
+        /* Estilos para los enlaces del menú */
+        nav a {
+            color: #ffffff; /* Texto en rosado fuerte */
+            text-decoration: none; /* Eliminar la decoración de subrayado */
+            font-size: 24px; /* Tamaño de texto más grande */
+            margin: 0 30px; /* Espacio entre los enlaces del menú */
+        }
+
+        /* Estilos para el contenido principal */
+        .main-content {
+            margin-bottom: 100px; /* Agregar un margen inferior para separar el pie de página */
+        }
+
+        /* Estilos para la sección de héroe */
+        .hero {
+            color: #b9b9b9; /* Texto en gris fuerte */
+            text-align: center;
+            padding: 100px 0; /* Espaciado vertical (arriba y abajo) de 100px */
+            width: 100%; /* Ancho del 100% para ocupar todo el ancho de la página */
+            margin: 0; /* Eliminamos los márgenes para que ocupe todo el ancho disponible */
+            display: flex; /* Uso de flexbox para alinear elementos */
+            align-items: center; /* Centrar verticalmente los elementos */
+            justify-content: center; /* Centrar horizontalmente los elementos */
+            flex-direction: column; /* Cambiar la dirección del flexbox a columnas */
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombreado sutil */
+            border-radius: 20px; /* Bordes redondeados */
+        }
+
+        /* Estilos para la imagen */
+        .hero img {
+            max-width: 25%; /* Establecer el ancho máximo de la imagen al 50% del contenedor */
+            margin-bottom: 0; /* Eliminar el espacio entre el menú y la imagen */
+        }
+
+        /* Estilos para el título H1 */
+        .hero h1 {
+            font-size: 72px;
+            margin-bottom: 0; /* Eliminar el margen inferior del título */
+            color: #ff7698; /* Título en rosado fuerte */
+        }
+
+        /* Estilos para los subtítulos */
+        .hero h2 {
+            font-size: 36px;
+            margin: 10px 0; /* Agregar un espacio entre los subtítulos */
+            color: #4c4c4c; /* Subtítulos en gris fuerte */
+        }
+
+        /* Estilos para el separador personalizado */
+        .hero .separator {
+            width: 500px; /* Ancho del separador */
+            height: 4px; /* Altura del separador */
+            background-color: #ff7698; /* Color rosado fuerte */
+            margin: 10px auto; /* Espacio antes y después del separador, y centrar horizontalmente */
+            border: none; /* Sin borde */
+            border-radius: 8px; /* Bordes redondeados */
+        }
+
+        /* Estilos para la descripción */
+        .hero p {
+            font-size: 24px;
+            margin-top: 5px; /* Agregar un espacio pequeño entre el último subtítulo y la descripción */
+            text-align: justify; /* Justificar el texto en la descripción */
+            margin-left: 100px; /* Agregar un margen a la izquierda */
+            margin-right: 100px; /* Agregar un margen a la derecha */
+        }
+
+        /* Estilos para el pie de página */
+        footer {
+            background-color: #f292ff; /* Fondo del pie de página en color f292ff */
+            padding: 20px 0; /* Espaciado interno en el pie de página (arriba
+
+ y abajo) */
+            text-align: center; /* Centrar el contenido del pie de página */
+            position: fixed; /* Fijar el pie de página en la parte inferior */
+            left: 0; /* Colocar el pie de página al inicio del eje horizontal */
+            bottom: 0; /* Colocar el pie de página al final del eje vertical */
+            width: 100%; /* Ancho del pie de página al 100% del ancho de la ventana */
+            color: #ffffff; /* Texto en rosado fuerte */
+            font-size: 28px; /* Tamaño de letra más grande */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Menú de navegación -->
+<nav>
+    <a href="#">Más información</a>
+    <a href="#">Contáctame</a>
+</nav>
+
+<!-- Sección de héroe -->
+<section class="hero">
+    <img src="marjorie.png" alt="">
+    <h1>Marjorie Moran</h1>
+    <h2>Carné: 0905-20-11672 || Edad: 23 años</h2>
+    <hr class="separator"> <!-- Separador personalizado -->
+    <h2>¿Qué espero de este curso?</h2>
+    <p>Espero que este curso de desarrollo web aborde mucho nuevo conocimiento de HTML. 
+        Deseo aprender los fundamentos sólidos de este lenguaje, desde la estructura básica de una página 
+        hasta el uso de etiquetas semánticas para crear contenido significativo. 
+        Aspiro a adquirir habilidades prácticas en la creación de formularios interactivos y 
+        el manejo de multimedia, permitiéndome construir sitios web funcionales y atractivos. 
+        Un enfoque completo en HTML me brindará una base sólida para el desarrollo web y 
+        me permitirá avanzar hacia otros aspectos del campo con confianza.</p>
+</section>
+
+<!-- Pie de página -->
+<footer>
+    ¡Puede que sea paso lento, pero siempre es seguro!
+</footer>
+
+</body>
+</html>
